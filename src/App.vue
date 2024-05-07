@@ -1,6 +1,5 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-//import TheWelcome from './components/TheWelcome.vue'
 import GuessAge from './components/GuessAge.vue'
 </script>
 
@@ -14,9 +13,6 @@ import GuessAge from './components/GuessAge.vue'
   </header>
 
   <main>
-    <!--
-    <TheWelcome />
-  -->
     <GuessAge title="Toto" />
   </main>
 </template>
